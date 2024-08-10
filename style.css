@@ -530,13 +530,13 @@ option {
   align-items: center;
 }
 .client-message-box {
-  width: 400px;
-  padding: 50px;
+  width: 100%;
+  padding: 30px 0 0 50px;
 }
 .client-message-box input {
-  width: 330px;
+  width: 300px;
   height: 50px;
-  padding: 20px 10px;
+  padding: 10px;
   background-color: #646060;
 }
 .client-message-box label {
@@ -556,6 +556,7 @@ option {
   color: var(--text-color);
   font-size: 18px;
   margin-left: 50px;
+  margin-top: 0;
   margin-bottom: 20px;
   border: none;
   border-radius: 10px;
@@ -821,13 +822,15 @@ footer {
   }
   .message-box {
     grid-template-columns: repeat(1, 1fr);
-    margin: 20px auto;
   }
   .client-text p {
     padding: 10px;
   }
   .client-message-box {
-    padding: 20px;
+    padding: 10px;
+  }
+  .message-btn {
+    margin-left: 20px;
   }
   /* client messese ends */
 
@@ -852,5 +855,8 @@ footer {
     width: 340px;
     height: 250px;
     padding: 4px 20px;
+  }
+  .benner {
+    margin: 15px;
   }
 }
