@@ -826,9 +826,9 @@ footer {
   .client-text p {
     padding: 10px;
   }
-.client-message-box {
-  padding: 20px;
-}
+  .client-message-box {
+    padding: 20px;
+  }
   /* client messese ends */
 
   .footer-section {
