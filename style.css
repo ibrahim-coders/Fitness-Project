@@ -12,6 +12,7 @@
 body {
   font-family: 'Inter', sans-serif;
   background: #111111;
+  margin: 0 auto;
 }
 img {
   width: 100%;
@@ -85,12 +86,14 @@ ul li a {
   font-weight: 900;
   color: var(--text-color);
   margin-top: 50px;
+  line-height: 90px;
 }
 .italic {
-  font-family: 'Playwrite AT', cursive;
+  font-family: 'Miama', sans-serif;
   font-style: italic;
-  font-size: 4rem;
-  font-weight: 100;
+
+  font-weight: 900;
+  padding-bottom: 0;
 }
 .bennar-content p {
   font-size: 16px;
@@ -575,6 +578,7 @@ option {
 
 footer {
   background-color: #222222;
+  max-width: 1440px;
 }
 .footer-section {
   margin: 20px 60px;
