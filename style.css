@@ -87,13 +87,14 @@ ul li a {
   color: var(--text-color);
   margin-top: 50px;
   line-height: 90px;
+  position:relative;
 }
 .italic {
   font-family: 'Miama', sans-serif;
-  font-style: italic;
-
+  font-size: 4rem;
   font-weight: 900;
-  padding-bottom: 0;
+  font-style: oblique;
+  
 }
 .bennar-content p {
   font-size: 16px;
@@ -396,16 +397,17 @@ td {
   text-align: start;
   line-height: 24px;
 }
-.display-flex1 input {
-  margin-bottom: 0px;
+.display-flex1 {
+  margin-top: 10px;
 }
-.sex {
-  margin-bottom: 0px;
+.display-flex1 select {
+  margin-top: 10px;
 }
+
 input {
   width: 250px;
   height: 50px;
-  margin: 5px;
+  margin: 10px;
   color: #5f5959;
   background-color: #ffffff1a;
   padding: 0 20px;
@@ -815,11 +817,18 @@ footer {
   }
 
   .trainer-name img {
-    width: 440px;
+    width: 400px;
     height: 250px;
     padding: 4px 10px;
   }
-
+.trainer-name h5 {
+  bottom: 25%;
+  left: 15%;
+}
+.trainer-name p {
+  bottom: 15%;
+  left: 15%;
+}
   /* client message start */
   .client-message {
     margin: 20px;
