@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --btn-color: #e6533c;
   --text-color: #ffffff;
@@ -12,6 +13,7 @@
 body {
   font-family: 'Inter', sans-serif;
   background: #111111;
+  max-width: 1440px;
   margin: 0 auto;
 }
 img {
@@ -86,7 +88,7 @@ ul li a {
   font-weight: 900;
   color: var(--text-color);
   margin-top: 50px;
-  line-height: 90px;
+  line-height: 80px;
   position:relative;
 }
 .italic {
@@ -94,7 +96,7 @@ ul li a {
   font-size: 4rem;
   font-weight: 900;
   font-style: oblique;
-  
+  padding-right: 10px;
 }
 .bennar-content p {
   font-size: 16px;
@@ -432,7 +434,6 @@ option {
 option {
   width: 510px;
   height: 50px;
-  /* padding: 8px; */
   margin-top: 0;
   background-color: #ffffff1a;
   box-sizing: 10px;
@@ -533,6 +534,7 @@ option {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
+  
 }
 .client-message-box {
   width: 100%;
@@ -573,7 +575,12 @@ option {
   cursor: pointer;
   background-color: #4535c1;
 }
-
+textarea{
+  color:var(--text-color);
+  font-size:18px;
+  font-weight: 600;
+align-items: flex-start;
+}
 /* client-message section ends */
 
 /* fotter-section start */
@@ -794,17 +801,17 @@ footer {
     width: 185px;
   }
   input {
-    width: 185px;
+    width: 165px;
   }
   .sex {
-    width: 185px;
+    width: 165px;
   }
   select {
-    width: 280px;
+    width: 380px;
   }
 
   #activity-factor {
-    width: 370px;
+    width: 345px;
   }
   .calculator-form {
     margin: 10px;
